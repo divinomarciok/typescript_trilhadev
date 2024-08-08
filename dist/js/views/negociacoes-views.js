@@ -1,6 +1,5 @@
 import { View } from "./view.js";
 export class NegociacoesView extends View {
-    //declara o formato que vai ser a tabela no HTML // as colunas data,quantidade, valor
     template(model) {
         return `
             <table class="table table-hover table-bordered">
